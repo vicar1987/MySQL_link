@@ -1,10 +1,10 @@
 import pymysql
 
-host = 'localhost'
+host = 'localhost' or 'IP address'
 port = 3306
-user = 'root'
-passwd = 'root'
-db = 'testdb'
+user = 'username'
+passwd = 'password'
+db = 'db_name'
 charset = 'utf8'
 
 conn = pymysql.connect(host=host, port=port, user=user, passwd=passwd, db=db, charset=charset)
